@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(http://c1.peakpx.com/wallpaper/573/977/255/field-harvest-grain-summer-sunset-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+.icon
+{
+    width: 520px;
+    height: 550px;
+    background: black;
+    color: cornsilk;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    opacity: 0.8;
+    border-radius: 10%;
+
+}
+.avatar{
+    width: 100px;
+    height: 90px;
+    border border-radius: 50%;
+    opacity: 0.9;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+h3
+{
+    margin: 0;
+    padding: 40 40 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+.icon p{
+    text-align: center;
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+}
+.icon input{
+    width: 100%;
+        margin-bottom: 20px;
+}
+.icon input[type="email"],input[type="text"],input[type="password"],input[type="tel"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.icon input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #facf7b;
+    color: :#fff;
+    font-size: 14px;
+    border-radius:20px;
+    margin right left: 10px;
+}
+.icon input[type="submit"]:hover{
+    cursor: pointer;
+    background: red;
+    color: #f7da16;
+
+}
+.mid{
+  font-size: 14px;
+  background:red ;
+  color: :#fff;
+  width : 50%;
+    border-radius:20px;
+    float: left;
+}
+.mi{
+  font-size: 14px;
+  background: #facf7b;
+  color: :#fff;
+  width : 50%;
+    border-radius:20px;
+    float: right;
+}
+.mid :hover{
+    cursor: pointer;
+    background: red;
+    color: #f7da16;
+}
+.mi :hover{
+    cursor: pointer;
+    background: red;
+    color: red;
+}

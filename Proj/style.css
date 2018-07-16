@@ -1,0 +1,111 @@
+.jain-container .navbar-default{
+  position: fixed;
+  top:0;
+  background: transparent ;
+  border: none;
+}
+.navbar-nav.nav li a{
+  color:#fff;
+  font-size: :11PX;
+}
+.getti{
+     align-content: center;
+}
+.nane{
+  background-color:  #f2f2f2;
+}
+.nane1{
+  margin: 15px;
+  padding: auto;
+  background-color: #f2f2f2;
+}
+.nane1 p{
+  text-align: center;
+  font-size:  35px;
+  font-family: #Sans-Serif. Arial, sans-serif;
+color: black;
+}
+.bbbb{
+  font-size:  25px;
+}
+.first{
+  margin-top:  15px;
+  box-shadow:1px 1px 1px 1px #888888;
+
+}
+.vr{
+  font-style: italic;
+  font-size: 18px
+}
+.bd{
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  margin-top:0px;
+}
+.bds{
+  background-color: #6d7063;
+  font-size: 18px;
+  color: white;
+  margin-top:0px;
+}
+.trt{
+  color: white;
+}
+.carousel-caption h3{
+  top: 50%;
+}
+.nan{
+  border-bottom:2px solid red;
+  margin-left: 4px;
+}
+.vb{
+  margin: auto;
+  padding: auto;
+  position: absolute;
+}
+.vb{
+  list-style: none;
+  text-align: center;
+  background: white;
+  border-radius: 40%;
+  font-size: 50px;
+  position: relative;
+  transition: .5s ease-in-out;
+  color: #262626;
+  z-index: 1;
+}
+.vb:before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  border-radius: 40%;
+  transform: scale(0);
+  transition: .5s ease-in-out;
+  z-index: -1;
+}
+.vb:hover:before{
+  transform: scale(0.9);
+}
+.vb:hover{
+  color: red;
+}
+.gd {
+  font-size: 20px;
+  color: white;
+
+
+}
+.fr{
+  font-size: 18px;
+  color: white;
+  background: transparent;
+
+}
+.der{
+  text-align: center;
+}

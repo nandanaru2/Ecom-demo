@@ -1,0 +1,155 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+<title>Signup</title>
+<style>body{
+    margin: 0;
+    padding: 0;
+    background:url(http://c1.peakpx.com/wallpaper/573/977/255/field-harvest-grain-summer-sunset-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+.icon
+{
+    width: 520px;
+    height: 550px;
+    background: black;
+    color: cornsilk;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    opacity: 0.8;
+    border-radius: 0%;
+    overflow: auto;
+
+}
+.avatar{
+    width: 100px;
+    height: 90px;
+    border border-radius: 50%;
+    opacity: 0.9;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+h3
+{
+    margin: 0;
+    padding: 40 40 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+.icon p{
+    text-align: center;
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+}
+.icon input{
+    width: 100%;
+        margin-bottom: 20px;
+}
+.icon input[type="email"],input[type="text"],input[type="password"],input[type="tel"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.icon input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #facf7b;
+    color: :#fff;
+    font-size: 14px;
+    border-radius:20px;
+    margin right left: 10px;
+}
+.icon input[type="submit"]:hover{
+    cursor: pointer;
+    background: red;
+    color: #f7da16;
+
+}
+.mid{
+
+    font-size: 14px;
+    background: #facf7b;
+    color: :#fff;
+    width : 50%;
+      border-radius:20px;
+      float: right;
+}
+.mi{
+  font-size: 14px;
+  background:red ;
+  color: :#fff;
+  width : 50%;
+    border-radius:20px;
+    float: left;
+
+}
+.mid :hover{
+
+    cursor: pointer;
+    background: red;
+    color: red;
+}
+.mi :hover{
+  cursor: pointer;
+background: red;
+color: #f7da16;
+
+}
+
+</style>
+
+<body>
+    <div class="icon">
+    <img src="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/User-icon.png" class="avatar">
+        <h3>Signin Here</h3>
+        <div class="mid "><a href="second.html" ><center>For Customer</center> </div>
+         <div class="mi"><center>For Farmers</center></a> </div>
+        <form id="cust" onsubmit="validateForm()">
+<p>Email</p>
+            <input type="email" name="exampleInputName1" placeholder="Enter the Mail" required>
+            <p>User name</p>
+                    <input type="text" name="" placeholder="Enter Username" required>
+            <p>Password</p>
+            <input type="password" name="" placeholder="Enter Password">
+            <p>Confirm Password</p>
+                        <input type="password" name="" placeholder="Confirm Password">
+                        <p>Aadar Number</p>
+                        <input type="number" name="" placeholder="Number" required>
+                        <p>Farmer Number</p>
+                        <input type="number" name="" placeholder="Number" required>
+                        <p>Major Crop</p>
+                        <input type="text" name="" placeholder="Text"required>
+                     <input type="submit" name="" value="Create">
+
+        </form>
+    </div>
+
+
+</body>
+<script>
+function validateForm() {
+var x = document.forms["cust"]["exampleInputName1"].value;
+if (x == "") {
+    alert("Name must be filled out");
+    return false;
+}
+}
+</script>
+</head>
+</html>

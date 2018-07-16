@@ -1,0 +1,243 @@
+body, html{
+height:100%;
+margin:0;
+font-size: 16px;
+font-family: "lato",sans-serif;
+font-weight: 400;
+line-height: 1.8em;
+color:#666;
+}
+.jain-container .navbar-default{
+  position:fixed;
+  top:0;
+  background: transparent ;
+  border: none;
+}
+
+.navbar-nav.nav li a {
+  color:#ffff;
+  font-size: :11PX;
+
+
+}
+.ting1,.ting2,.ting3,.ting4,.ping1, .ping2, .ping3, .ping4, .ping5, .ping6, .cing1, .cing2, .cing3, .cing4, .cing5, .cing6,.cing7,.cing8 , .ling1, .ling2, .ling3, .ling4, .ling5, .ling6,.ling7,.ling8,.zing3,.rice1,.rice2,.rice3,.rice4,.rice5,.rice6,.rice11,.rice12,.rice13,.rice14,.rice15,.rice16,.rice21,.rice22,.rice23,.rice24,.rice25,.rice26
+{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.rice1{
+  background-image: url("https://image.ibb.co/hqnxmm/pexels_photo_247616_1.jpg"  );
+  min-height: 100%;
+}
+.rice2{
+  background-image: url("https://image.ibb.co/hr1eRS/organic_long_grain_rice_500x500.jpg"  );
+  min-height: 300px;
+}
+.rice3{
+  background-image: url("https://image.ibb.co/b7RqY7/irri6.jpg"  );
+  min-height: 300px;
+}
+.rice4{
+  background-image: url("https://image.ibb.co/fu89RS/long_grain_white_rice.jpg"  );
+  min-height: 300px;
+}
+.rice5{
+  background-image: url("https://image.ibb.co/m8pSD7/ghg_500x500.jpg"  );
+  min-height: 300px;
+}
+.rice6{
+  background-image: url("https://image.ibb.co/hBdR6S/1329417150japonica_rice.jpg"  );
+  min-height: 300px;
+}
+.rice11{
+  background-image: url("https://image.ibb.co/jKDZPw/Health_Benefits_Of_Pearl_Millet.jpg"  );
+  min-height: 100%;
+}
+.rice12{
+  background-image: url("https://image.ibb.co/jbWrqn/sorghum_today_161101_tease_e1c550c9d7a4eed42dee0689db17de56_today_inline_large.jpg"  );
+  min-height: 300px;
+}
+.rice13{
+  background-image: url("https://image.ibb.co/cWZcVn/Foxtail_millet.jpg"  );
+  min-height: 300px;
+}
+.rice14{
+  background-image: url("https://image.ibb.co/iaxLi7/Finger_millet_ragi.jpg"  );
+  min-height: 300px;
+}
+.rice15{
+  background-image: url("https://image.ibb.co/iZSmO7/Pearl_millet_Bajra.jpg"  );
+  min-height: 300px;
+}
+.rice16{
+  background-image: url("https://image.ibb.co/b9gPAn/Barnyard_millet.jpg"  );
+  min-height: 300px;
+}
+.rice21{
+  background-image: url("https://image.ibb.co/eXePPw/pulses_2_1.jpg"  );
+  min-height: 100%;
+}
+.rice22{
+  background-image: url("https://image.ibb.co/dpay37/drylentils_1066_475x316.jpg"  );
+  min-height: 300px;
+}
+.rice23{
+  background-image: url("https://image.ibb.co/kknBO7/drylentils_1065_475x316.jpg"  );
+  min-height: 300px;
+}
+.rice24{
+  background-image: url("https://image.ibb.co/hPWzAn/drylentils_1083_475x316.jpg"  );
+  min-height: 300px;
+}
+.rice25{
+  background-image: url("https://image.ibb.co/habcwS/drylentils_1077_475x316.jpg"  );
+  min-height: 300px;
+}
+.rice26{
+  background-image: url("https://image.ibb.co/b8RAGS/drylentils_1084_475x316.jpg"  );
+  min-height: 300px;
+}
+.zing3{
+  background-image: url("https://image.ibb.co/fXxQgb/old_lead_letters_forming_the_word_seasonal_dh3tmt.jpg"  );
+  min-height: 100%;
+}
+.ting1{
+  background-image: url("https://image.ibb.co/dcgV4w/images_2.jpg"  );
+  min-height: 100%;
+}
+.ting2{
+  background-image: url("https://image.ibb.co/jFbV4w/How_To_Select_And_Store_Sugarcane.jpg"  );
+  min-height: 100%;
+}
+.ting3{
+  background-image: url("https://image.ibb.co/hNQUxG/cacaomoon.jpg"   );
+  min-height: 100%;
+}
+.ting4{
+  background-image: url("https://image.ibb.co/bwhEWb/nuts_625x350_41464956952.jpg"  );
+  min-height: 100%;
+}
+
+.ling1{
+  background-image: url("https://image.ibb.co/iyhZrb/corn_farm_1.jpg"  );
+  min-height: 100%;
+}
+  .ling2{
+    background-image: url("https://image.ibb.co/fQxmMb/15cb_cotton_14jancbmsp2_cotton_GR62307_CH_1_CB15_BT_COTTON.jpg"  );
+    min-height: 300px;
+  }
+  .ling3{
+    background-image: url("https://image.ibb.co/nLrkEw/download_1.jpg"  );
+    min-height: 300px;
+  }
+  .ling4{
+    background-image: url("https://image.ibb.co/j2UcSG/greentea3.jpg"  );
+    min-height: 300px;
+  }
+  .ling5{
+    background-image: url("https://image.ibb.co/j3L4rb/Roasted_coffee_beans_5831e5d35f9b58d5b1c85fa7.jpg");
+    min-height: 300px;
+  }
+  .ling6{
+    background-image: url("https://image.ibb.co/cfSvxG/our_diet_needs_linseed.jpg" );
+    min-height: 300px;
+  }
+  .ling7{
+    background-image: url("https://image.ibb.co/hcNjrb/groundnuts_7775959228.jpg");
+    min-height: 300px;
+  }
+  .ling8{
+    background-image: url("https://image.ibb.co/cMCpPw/black_jamaican_castor_oil_facial_hair.jpg" );
+    min-height: 300px;
+  }
+.ping1{
+  background-image: url("https://image.ibb.co/mOSHcG/pexels_photo_134879.jpg"  );
+  min-height: 100%;
+}
+  .ping2{
+    background-image: url("https://image.ibb.co/fRMM4w/AAEAAQAAAAAAAAm5_AAAAJDA2_NDg4_ODcw_LTY5_Nm_Et_NGUw_My1i_Nj_Ux_LWE0_Yzkw_N2_Vh_M2_E1_Mg.jpg" );
+    min-height: 300px;
+  }
+  .ping3{
+    background-image: url("https://image.ibb.co/enp8jw/pexels_photo_236473.jpg" );
+    min-height: 300px;
+  }
+  .ping4{
+    background-image: url("https://image.ibb.co/jKDZPw/Health_Benefits_Of_Pearl_Millet.jpg" );
+    min-height: 300px;
+  }
+  .ping5{
+    background-image: url("https://image.ibb.co/eXePPw/pulses_2_1.jpg");
+    min-height: 300px;
+  }
+  .cing1{
+    background-image: url("https://image.ibb.co/fhwc1b/download_3.jpg"   );
+    min-height: 100%;
+  }
+  .cing2{
+    background-image: url("https://image.ibb.co/mM2s1b/eer.jpg"  );
+    min-height: 300px;
+  }
+  .cing3{
+    background-image: url("https://image.ibb.co/isKBuw/black_pepper_625x350_51446463333.jpg"   );
+    min-height: 300px;
+  }
+  .cing4{
+    background-image: url("https://image.ibb.co/nPXWuw/91_Cov_Huhx_L_SY355.jpg"  );
+    min-height: 300px;
+  }
+  .cing5{
+    background-image: url("https://image.ibb.co/jwmfnG/nutmeg_nutrition_facts.jpg"   );
+    min-height: 300px;
+  }
+  .cing6{
+    background-image: url("https://image.ibb.co/htsd7G/170807181545_herbs_and_spices_cinnamon_super_169.jpg"   );
+    min-height: 300px;
+  }.cing7{
+    background-image: url("https://image.ibb.co/dGoUEw/download_2.jpg"  );
+    min-height: 300px;
+  }
+
+
+  .section {
+    text-align: center;
+    padding: 50px 80px;
+  }
+  .section-light{
+    background-color: #f4f4f4;
+    color:#666;
+  }
+  .section-dark{
+    background-color: #282e34;
+    color: #ddd;
+  }
+ .ptext{
+    position : absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+ }
+ .ptext .border{
+   background-color: #111;
+   color:#fff;
+   padding: 20px;
+}
+
+
+
+.bd{
+  background-color: black;
+  font-size: 18px;
+  color: white;
+}
+.trt{
+  color: white;
+}

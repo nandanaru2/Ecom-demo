@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Happy Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+#food{
+  height: 80vh  ;
+  width: 100%;
+  background-image:url("https://image.ibb.co/mOSHcG/pexels_photo_134879.jpg") ;
+  background-size: cover;
+  display:table;
+  opacity: 0.6;
+  margin: 0px;
+  padding: 0px;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light{
+  background-color: #f4f4f4;
+  color:#666;
+}
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+  }
+  .ptext{
+     position : absolute;
+   top:40%;
+   width: 100%;
+   text-align: center;
+   color: #000;
+   font-size: 30px;
+   letter-spacing: 8px;
+   text-transform: uppercase;
+  }
+  .ptext .border{
+    background-color: #111;
+    color:#fff;
+    padding: 20px;
+  }
+  .headii {
+    position : absolute;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  }
+.headii  .p{
+    background-color: #111;
+    color:white;
+    padding: 20px;
+  }
+  .disc .p{
+    font-size: 10px;
+    letter-spacing: normal;
+    color: black;
+
+  }
+
+  .nope{
+
+  background-color: green;
+  }
+  .arr{
+    background-color: green;
+
+  }
+  .dift{
+    background:#333333;
+  	color:#f4f4f4;
+    padding-bottom:80px;
+  }
+
+</style>
+
+</head>
+<body>
+  <div id="food">
+    <div class="ptext">
+    <span class="border trans">BUYING PROCESS</span>
+  </div>
+</div>
+<section class="section section-dark">
+  <h2 >CURRENT PROCEDURE FOR BUYING</h2>
+  <p>The Cstomers are allowed buy products above 5Kg only. Online buying is not yet availabe . Cash on selevary is only applied in our shopping Process</p>
+</p>
+
+</section>
+
+<center><button type="button" class="btn btn-default btn-lg nope bby"> BUY!</button></center>
+
+<div class="container-fluid dift">
+<div class="container " id="drift">
+<form class="form-horizontal" name="myForm" onsubmit="return validateForm()">
+  <div class="form-group">
+    <label for="exampleInputName1">Customer Name</label>
+    <input type="text" class="form-control" id="exampleInputName1" placeholder="XXXXX">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputphonenumber">Phone Number</label>
+    <input type="number" class="form-control" id="exampleInputphonenumber" placeholder="Phone number"required>
+  </div>
+  <div class="form-group">
+    <label for="Product Name">Product Name</label>
+    <input type="text" class="form-control" id="Product Name" placeholder="YYYYY"required>
+  </div>
+  <div class="form-group">
+    <label for="Quantity">Quantity</label>
+    <input type="number" class="form-control" id="Quantity" placeholder="5-25 in KG"required>
+  </div>
+  <div class="form-group">
+    <label for="Aathar Number">Aathar Number</label>
+    <input type="number" class="form-control" id="Aathar Number" placeholder="...11111..." required>
+  </div>
+
+  <div class="form-group ">
+    <label for="exampleAddress">Address</label>
+   <textarea  class="form-control" placeholder="Address"required></textarea>
+  </div>
+  <center><button type="submit"  id="ada"class="btn btn-default arr">PLACE ORDER</button></center>
+</form>
+</div>
+<footer class="col-sm-12 bd">
+  <p class="col-md-8">Posted by: Happy Cart</p>
+  <p class="col-md-4 push-right">Contact information: <a href="mailto:someone@example.com">HappyCart@gmail.com</a>.</p>
+</footer>
+</body>
+</html>
+
+<script>
+$(document).ready(function(){
+  $("#drift").hide();
+});
+$(document).ready(function(){
+    $(".nope").on("click",function(){
+        $(".bby").hide();
+        $("#drift").show();
+
+    });
+});
+function validateForm() {
+var x = document.forms["myForm"]["exampleInputName1"].value;
+
+if (x == "") {
+    alert("Name must be filled out");
+    return false;
+}
+
+}
+</script>
+
+</html>
